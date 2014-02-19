@@ -59,7 +59,7 @@ This repo is based on a fresh version of Laravel 4, so to recreate this implemen
 
 9. Run the following artisan command `php artisan db:seed` - If you check your DB now, there should be one user in the users table, with a username of `sam@laravelduo.co.uk`, and a password of `password` (which has been helpfully hashed by Laravel)
 
-10. Add a new folder at `app/LaravelDuo` and add the two files from this repo from the same location, `Duo.php` (available [here](https://github.com/duosecurity/duo_php/blob/master/duo_web.php) and `LaravelDuo.php`
+10. Add a new folder at `app/LaravelDuo` and add the two files from this repo from the same location, `Duo.php` (available [here](https://github.com/duosecurity/duo_php/blob/master/duo_web.php)) and `LaravelDuo.php`
 
 11. Open `app/LaravelDuo/LaravelDuo.php` and add add the Intergration key `IKEY`, Secret Key `SKEY` and Host `HOST` values from your Duo Security account, and create an Application Key `AKEY`
 
