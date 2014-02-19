@@ -79,7 +79,7 @@ This repo is based on a fresh version of Laravel 4, so to recreate this implemen
 
 19. Open `app/models/User.php` and add the `getIdFromEmail()` static method from the file of the same name from this repo.
 
-20. Browse to your webroot (in my case `http://localhost:8888/LaravelDuo/public` and enter `sam@laravelduo.co.uk` in the email field and `password` in the password field. 
+20. Browse to your webroot (in my case `http://localhost:8888/LaravelDuo/public`) and enter `sam@laravelduo.co.uk` in the email field and `password` in the password field. 
 
 21. Follow the Duo security instructions to authenticate using their service
 
