@@ -67,7 +67,7 @@ This repo is based on a fresh version of Laravel 4, so to recreate this implemen
 
 13. Run the following artisan command `composer dumpautoload` 
 
-14. Open `app/routes.php`, delete the standard routing for (`'\'`) and add the following `Route::controller('/', 'HomeController');`. This will RESTfully route our various page requests through `app/controllers/HomeController.php`
+14. Open `app/routes.php`, delete the standard routing for (`'/'`) and add the following `Route::controller('/', 'HomeController');`. This will RESTfully route our various page requests through `app/controllers/HomeController.php`
 
 15. Create `app/views/layouts/master.blade.php` and add the code shown in the file of the same name from this repo. This uses Laravel's Blade syntax and is the outer structure for every page.
 
