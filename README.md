@@ -1,7 +1,7 @@
-Laravel-duosecurity
+Laravel 4 - Duo Security
 ===================
 
-An example of how to implement two factor authentication using Duo Security and Laravel. 
+An example of how to implement two factor authentication using Duo Security and Laravel 4. 
 
 Once complete, a user will be asked for their username and password, which is authenticated by Laravel, then if successful, they will be shown a prompt by Duo Security which will require a second kind of authentication. If that is also authenticated, the user will be logged in by Laravel and redirected to the homepage. 
 
@@ -84,7 +84,3 @@ This repo is based on a fresh version of Laravel 4, so to recreate this implemen
 21. Follow the Duo security instructions to authenticate using their service
 
 22. Win
-
----
-
-To come - a more in depth walkthrough of `HomeController.php`
